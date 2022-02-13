@@ -26,8 +26,8 @@
 #include "TZinfo.h"
 
 // Setup
-String WIFI_SSID = "nn_2";
-String WIFI_PASS = "Zabrze2016!";
+String WIFI_SSID = "[your_network_sid]";
+String WIFI_PASS = "[your_network_password]";
 #define WIFI_HOSTNAME "ThingPulse-weather-station-color"
 
 const int UPDATE_INTERVAL_SECS = 10 * 60; // Update every 10 minutes
@@ -36,7 +36,7 @@ const boolean HARD_SLEEP = false;         // true go into deepSleep false = turn
 
 // OpenWeatherMap Settings
 // Sign up here to get an API key: https://docs.thingpulse.com/how-tos/openweathermap-key/
-String OPEN_WEATHER_MAP_API_KEY = "b9d1398a8556fffb1b09f038cb4888cb";
+String OPEN_WEATHER_MAP_API_KEY = "[open_weather_api_key]";
 /*
 Go to https://openweathermap.org/find?q= and search for a location. Go through the
 result set and select the entry closest to the actual location you want to display 
